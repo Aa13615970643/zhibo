@@ -1,0 +1,138 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "直播列表",
+				"backgroundColor": "#eeeeee",
+				"backgroundTextStyle": "light"
+			}
+		},
+		{
+			"path": "pages/identity-validate/identity",
+			"style": {}
+		},
+		{
+			"path": "pages/attention/attention",
+			"style": {
+				"navigationBarTitleText": "关注列表"
+			}
+		},
+		{
+			"path": "pages/usercenter/usercenter",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		},
+		{
+			"path": "pages/active/active",
+			"style": {
+				"enablePullDownRefresh": true,
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "开播列表",
+				"backgroundColor": "#eeeeee",
+				"backgroundTextStyle": "light"
+			}
+		},
+		{
+			"path": "template/card/card",
+			"style": {}
+		},
+		{
+			"path": "pages/detail/detail",
+			"style": {}
+		},
+		{
+			"path": "pages/live/live",
+			"style": {
+				"disableScroll": true
+			}
+		},
+		{
+			"path": "pages/activeDetail/activeDetail",
+			"style": {}
+		},
+		{
+			"path": "pages/message/message",
+			"style": {
+				"navigationBarTitleText": "消息管理"
+			}
+		},
+		{
+			"path": "pages/messageDetail/messageDetail",
+			"style": {}
+		},
+		{
+			"path": "pages/apply/apply",
+			"style": {}
+		},
+		{
+			"path": "pages/edit/edit",
+			"style": {}
+		},
+		{
+			"path": "pages/set/set",
+			"style": {}
+		},
+		{
+			"path": "pages/userinfo/userinfo",
+			"style": {}
+		},
+		{
+			"path": "pages/feedback/feedback",
+			"style": {}
+		},
+		{
+			"path": "pages/abount/abount",
+			"style": {}
+		},
+		{
+			"path": "pages/notice/notice",
+			"style": {}
+		},
+		{
+			"path": "pages/authentication/authentication",
+			"style": {}
+		},
+		{
+			"path": "pages/report/report",
+			"style": {}
+		}
+	],
+	"tabBar": {
+		"color": "#000000",
+		"selectedColor": "#15b111",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/images/home.png",
+				"text": "",
+				"selectedIconPath": "static/images/selectHome.png"
+			},
+			{
+				"pagePath": "pages/active/active",
+				"iconPath": "static/images/live-logo.png",
+				"text": "",
+				"selectedIconPath": "static/images/live-logo.png"
+			},
+			{
+				"pagePath": "pages/usercenter/usercenter",
+				"iconPath": "static/images/setting.png",
+				"text": "",
+				"selectedIconPath": "static/images/selectSetting.png"
+			}
+		]
+	},
+	"sitemapLocation": "sitemap.json",
+	"globalStyle": {
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#ffffff",
+		"navigationBarTitleText": "环信直播",
+		"navigationBarTextStyle": "black"
+	},
+	"subPackages": []
+}

@@ -1,0 +1,46 @@
+miniprogram-to-uniapp v2 转换日志
+
+工具版本：v2.0.24
+转换模式：HBuilder X
+是否合并css：是
+项目 'livestream_demo_miniprogram' 开始转换...
+sourceFolder = E:/livestream_demo_miniprogram
+搜索到275个文件，耗时：21ms
+
+[Tip]文件(sdk/webimSDK3.1.1.js)体积大于 204.8 kb ，跳过处理
+[Tip]文件(weui-miniprogram/icon/icon.js)体积大于 204.8 kb ，跳过处理
+
+[Tip]这里引用的全是网络字体，可能在app上面有兼容问题（如字体图标显示不出来，运行后没问题就不用管）  fileKey: app
+properties _showChange函数不存在
+properties _showChange函数不存在
+异常：replaceTemplateTag - attrs  undefined
+异常：replaceTemplateTag - attrs  undefined
+异常：replaceTemplateTag - attrs  undefined
+异常：replaceTemplateTag - attrs  undefined
+异常：replaceTemplateTag - attrs  undefined
+异常：replaceTemplateTag - attrs  undefined
+write pages.json success!
+write manifest.json success!
+write main.js success!
+
+
+统计信息：
+
+vue文件数量: 41
+支付api数量: 0
+登录api数量: 0
+
+恭喜你，转换完成！
+用时: 11.604s
+工具版本：v2.0.24
+在该小程序项目的同级目录可以看到_uni结尾的项目，即是转换好的uniapp项目，相关日志在该目录里。
+
+使用说明：
+    1.因各种原因，本工具并非100%完美转换！有问题实属正常！
+    2.如遇运行报错，请添加QQ群(780359397、361784059、603659851)带图反馈或https://github.com/zhangdaren/miniprogram-to-uniapp提交Issue！
+    3.更多信息请查阅转换后目录里的 README.md 和 transform.log
+
+
+hbxExecutableProgram  D:\uniapp\HBuilderX\HBuilderX.exe
+stdout: 
+stderr: 
